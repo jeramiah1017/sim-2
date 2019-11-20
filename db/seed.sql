@@ -4,5 +4,9 @@ name varchar(90),
 address varchar(90),
 city varchar(50),
 state varchar(50),
-zipcode int
+zipcode int,
+img text,
+rent int,
+mortgage int
 );
+

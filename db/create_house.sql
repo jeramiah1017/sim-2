@@ -1,4 +1,4 @@
 insert into houses 
-(name, address, city, state, zipcode)
+(name, address, city, state, zipcode, img, rent, mortgage)
 values 
-($1, $2, $3, $4, $5)
+(${name}, ${address}, ${city}, ${state}, ${zipcode}, ${img}, ${rent}, ${mortgage})

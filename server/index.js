@@ -11,6 +11,8 @@ massive(CONNECTION_STRING).then(g => {
     console.log("Data")
 })
 
-app.post('/api/Houses', ctrl.createHouse)
+app.post('/api/houses', ctrl.createHouse)
+app.get('/api/houses', ctrl.getHouses)
+app.delete('/api/houses/:id', ctrl.deleteHouse)
 
 app.listen(SERVER_PORT, () => console.log(`AI model ${SERVER_PORT}` ))
